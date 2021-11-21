@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Soal01a",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "123\n456\n789",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Soal01b",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "200\n501\n996",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal02a",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "65 180",
+      "output": "BMI Anda adalah 20.06. Termasuk kategori normal.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Soal02b",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "43 158",
+      "output": "BMI Anda adalah 17.22. Termasuk kategori underweight.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal03",
+      "setup": "javac Soal03.java",
+      "run": "java Soal03",
+      "input": "286 349",
+      "output": "enam ratus tiga puluh lima",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+	{
+      "name": "Soal04a",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "52 3",
+      "output": "140608",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Soal04b",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "16 4",
+      "output": "65536",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}

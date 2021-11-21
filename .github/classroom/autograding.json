@@ -1,74 +1,154 @@
 {
   "tests": [
     {
-      "name": "Soal01a",
-      "setup": "javac Soal01.java",
-      "run": "java Soal01",
-      "input": "123\n456\n789",
+      "name": "Jurnal01a",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "100 20",
+      "output": "25.000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal01b",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "100 50",
+      "output": "3.125",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal01c",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "20 50",
+      "output": "0.625",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "4 1 5 7 7 9 9 3 6 1 0",
+      "output": "5.20",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal02b",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "3 5 6 3 8 6 9 5 6 1 9 1 1 4 9 3 2 9 4 3 0",
+      "output": "4.85",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "1",
+      "output": "YA",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Jurnal03b",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "145",
+      "output": "YA",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+	{
+      "name": "Jurnal03c",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "123",
+      "output": "BUKAN",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+	{
+      "name": "Jurnal03d",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "578",
+      "output": "BUKAN",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP01b",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "60",
       "output": "15",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
 	{
-      "name": "Soal01b",
-      "setup": "javac Soal01.java",
-      "run": "java Soal01",
-      "input": "200\n501\n996",
-      "output": "8",
+      "name": "TP01a",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "7654321",
+      "output": "270",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
-    },
-    {
-      "name": "Soal02a",
-      "setup": "javac Soal02.java",
-      "run": "java Soal02",
-      "input": "65 180",
-      "output": "BMI Anda adalah 20.06. Termasuk kategori normal.",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
+      "points": 5
     },
 	{
-      "name": "Soal02b",
-      "setup": "javac Soal02.java",
-      "run": "java Soal02",
-      "input": "43 158",
-      "output": "BMI Anda adalah 17.22. Termasuk kategori underweight.",
+      "name": "TP02b",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "123",
+      "output": "321",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
     {
-      "name": "Soal03",
-      "setup": "javac Soal03.java",
-      "run": "java Soal03",
-      "input": "286 349",
-      "output": "enam ratus tiga puluh lima",
+      "name": "TP02a",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "9840769",
+      "output": "9670489",
       "comparison": "included",
       "timeout": 10,
-      "points": 30
+      "points": 5
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "4 1 5 7 7 9 9 3 6 1 0",
+      "output": "52",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
     },
 	{
-      "name": "Soal04a",
-      "setup": "javac Soal04.java",
-      "run": "java Soal04",
-      "input": "52 3",
-      "output": "140608",
+      "name": "TP03b",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "3 5 6 3 8 6 9 5 6 1 9 1 1 4 9 3 2 9 4 3 0",
+      "output": "97",
       "comparison": "included",
       "timeout": 10,
-      "points": 15
-    },
-    {
-      "name": "Soal04b",
-      "setup": "javac Soal04.java",
-      "run": "java Soal04",
-      "input": "16 4",
-      "output": "65536",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 15
+      "points": 5
     }
   ]
 }
